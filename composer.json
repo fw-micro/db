@@ -1,0 +1,18 @@
+{
+    "name": "fw_micro/db",
+    "authors": [
+        {
+            "name": "drlenux",
+            "email": "drlenux@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "catfan/medoo": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "fw_micro\\db\\": "/"
+        }
+    }
+}
